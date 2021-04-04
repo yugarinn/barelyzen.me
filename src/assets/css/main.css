@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&family=PT+Mono&display=swap');
+@import url('./reset.css');
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header {
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.header__title {
+    font-family: 'New Tegomin', serif;
+    font-weight: 400;
+    font-size: 60px;
+}
+
+.secondary-text {
+    color: #888888;
+}
+
+.section {
+    margin-bottom: 50px;
+}
+
+.section.posts li {
+    margin-bottom: 5px;
+}
+
+.section.projects a {
+    font-size: 11px;
+}
+
+.section.projects .project {
+    margin-bottom: 35px;
+}

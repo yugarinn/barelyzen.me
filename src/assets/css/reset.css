@@ -1,0 +1,11 @@
+* {
+    font-family: 'PT Mono', monospace;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:visited {
+    color: blue;
+}
