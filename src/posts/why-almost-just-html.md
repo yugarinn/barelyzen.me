@@ -1,7 +1,12 @@
 # Why just HTML (and CSS)
 
-La semana pasada estaba en el baño y me encontré con este twit:
+Last week I stumbled upon this tweet while on the bathroom:
 ![alt text](../assets/images/just_html.jpeg "Logo Title Text 1")
 
-En el proceso me he acordado de porqué ya no se usa solo HTML:
-- Para evitar repetición de código: cada página es un HTML entero
+- Explain how I went from "heh" to "this is actually how I like thing to be"
+- Explain why it is appelaing to me to use the bare minimum needed to build
+anything
+- Explain why I decided to make a "build" process.
+- Search for similar articles, or currents of thought.
+- Say that I wont get all critical about the current state of the web/software
+development
