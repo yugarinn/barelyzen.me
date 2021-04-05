@@ -1,28 +1,46 @@
 const fs = require('fs')
 const showdown = require('showdown')
+const copydir = require('copy-dir')
 
-const recreateBuildFolder = () => {
+function recreateBuildFolder() {
   try {
     fs.rmdirSync('./build', { recursive: true, force: true })
   } catch (err) {
-    console.log('no build folder detected... creating from scratch')
-  } finally {
-    fs.mkdirSync('./build')
+    console.error('no build folder detected... creating from scratch')
   }
+
+  fs.mkdirSync('./build')
+  fs.mkdirSync('./build/posts')
 }
 
-const buildIndex = () => {
-  return
+function buildPosts() {
+  const markdownConverter = new showdown.Converter()
+
+  fs.readdirSync('./src/posts').forEach((filename) => {
+    const markdown = fs.readFileSync(`./src/posts/${filename}`).toString()
+    const html = markdownConverter.makeHtml(markdown)
+    const htmlFilename = filename.replace('md', 'html')
+
+    fs.writeFileSync(`./build/posts/${htmlFilename}`, html)
+  })
 }
 
-const buildPosts = () => {
-  return
+function buildIndex() {
+  const rawIndex = fs.readFileSync('./src/index.html').toString()
+  const updatedIndex = rawIndex
+
+  fs.writeFileSync('./build/index.html', updatedIndex)
 }
 
-const build = () => {
+function copyAssets() {
+  copydir.sync('./src/assets', './build/assets')
+}
+
+function build() {
   recreateBuildFolder()
-  buildIndex()
   buildPosts()
+  buildIndex()
+  copyAssets()
 }
 
 build()
