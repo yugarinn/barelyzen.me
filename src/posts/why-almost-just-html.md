@@ -25,7 +25,7 @@ This site does not require any of those extra features, I'm not trying to onboar
 #### The half-life of software
 If left alone, how long would it take for TikTok or Instagram to stop working? How long would it take for Stripe or Google Docs? How long would it take for Hacker News? And for Wikipedia? Nobody can say for sure, but it definitely feels like Wikipedia would hold way, way longer than TikTok.
 
-I guess that's the reason why I use Emacs to write code, Markdown for taking notes and the command line for a lot of day to day tasks. Some technologies *feel* timeless. I'm almost completely certain that I will be using Emacs and the terminal up until the day I stop coding professionally, and then some.
+I guess that's the reason why I use Emacs to write code, Markdown for taking notes and the command line for a lot of day to day tasks. Some technologies *feel* timeless. I'm almost completely certain that I will be using Emacs and the terminal up for the rest of my profesional career, and then some.
 
 Being part of a complex ecosystem has many advantages if you are building the next big thing and need to iterate and pivot every 2 months. When dealing with smaller, down to earth solutions, it's refreshing to go back to basics and stay at lower level of abstraction.
 
