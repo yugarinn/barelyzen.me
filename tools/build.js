@@ -14,15 +14,26 @@ function recreateBuildFolder() {
 }
 
 function buildPosts() {
-  const markdownConverter = new showdown.Converter()
+  const markdownConverter = new showdown.Converter({ openLinksInNewWindow: true })
 
   fs.readdirSync('./src/posts').forEach((filename) => {
+    let html
+
+    const template = fs.readFileSync('./src/templates/article.html').toString()
     const markdown = fs.readFileSync(`./src/posts/${filename}`).toString()
-    const html = markdownConverter.makeHtml(markdown)
+
+    const articleContent = markdownConverter.makeHtml(markdown)
     const htmlFilename = filename.replace('md', 'html')
 
-    fs.writeFileSync(`./build/posts/${htmlFilename}`, html)
+    html = template.replace('[[TITLE]]', htmlFilename.replace('.html', ''))
+    html = html.replace('[[CONTENT]]', articleContent)
+
+    fs.writeFileSync(`./build/posts/${htmlFilename}`, centerImages(html))
   })
+}
+
+function centerImages(html) {
+  return html.replace('<p><img', '<p style="text-align: center;"><img')
 }
 
 function buildIndex() {

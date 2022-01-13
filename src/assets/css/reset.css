@@ -9,3 +9,7 @@ a:hover {
 a:visited {
     color: blue;
 }
+
+p {
+    line-height: 26px;
+}

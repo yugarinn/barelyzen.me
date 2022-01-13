@@ -1,0 +1,16 @@
+.article {
+    padding-bottom: 100px;
+    line-height: 21px;
+}
+
+.article h2 {
+    margin-top: 70px;
+}
+
+.article p {
+    margin-bottom: 25px;
+}
+
+.article img {
+    max-width: 400px;
+}

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&family=PT+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&family=Noto+Sans+Mono&display=swap');
 @import url('./reset.css');
 
 .container {
@@ -13,9 +13,18 @@
 }
 
 .header__title {
-    font-family: 'New Tegomin', serif;
+    font-family: 'Noto Sans Mono', monospace;
     font-weight: 400;
     font-size: 60px;
+}
+
+
+.header__title a,
+.header__tiitle a:visited,
+.header__tiitle a:hover {
+    font-family: 'New Tegomin', serif;
+    color: #000000;
+    text-decoration: none;
 }
 
 .secondary-text {
@@ -23,17 +32,13 @@
 }
 
 .section {
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 
 .section.posts li {
     margin-bottom: 5px;
 }
 
-.section.projects a {
-    font-size: 11px;
-}
-
-.section.projects .project {
-    margin-bottom: 35px;
+.section p {
+    padding-left: 10px;
 }
