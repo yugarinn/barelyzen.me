@@ -21,7 +21,7 @@ Again, architecture does nothing to improve the performance of software. I don't
 
 - **ETC (Ease To Change)**: how easy the software is to change.
 
-How easy is for any given person to understand and be able to make changes to the code base, while also being sure that nothing is being broken. Also, I stole this concept from [The Pragmatic Programmer}(https://openlibrary.org/works/OL5748544W/The_Pragmatic_Programmer?edition=key%3A/books/OL7408140M).
+How easy is for any given person to understand and be able to make changes to the code base, while also being sure that nothing is being broken. Also, I stole this concept from [The Pragmatic Programmer](https://openlibrary.org/works/OL5748544W/The_Pragmatic_Programmer?edition=key%3A/books/OL7408140M).
 
 While there are industry-accepted sets of best practices, there is no silver bullet that makes your code "ease to changeness" magically go up. Going further, what is considered easier to change may vary from team to team or even from culture to culture.
 

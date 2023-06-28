@@ -3,6 +3,10 @@
     line-height: 21px;
 }
 
+.article h1 {
+    line-height: 32px;
+}
+
 .article h2 {
     margin-top: 70px;
 }
