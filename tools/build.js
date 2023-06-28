@@ -4,7 +4,7 @@ const copydir = require('copy-dir')
 
 function recreateBuildFolder() {
   try {
-    fs.rmdirSync('./build', { recursive: true, force: true })
+    fs.rmSync('./build', { recursive: true, force: true })
   } catch (err) {
     console.error('no build folder detected... creating from scratch')
   }
