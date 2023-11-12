@@ -8,7 +8,7 @@ Last week I stumbled upon this tweet while on the bathroom:
 ## From "heh" to "huh"
 It made me chuckle for a second before I kept scrolling, but it stayed with me for the rest of the day.
 
-I tried to maintain a personal webpage several times. Once, I even wrote a UNIX terminal-like [webpage](https://sergiouve.github.io/), which I think is pretty cool. Each time, I also took the opportunity to learn some new front-end technology, which ended up not being as "easy to start" or "blazing fast to deploy" as their pretty landing pages promised.
+I tried to maintain a personal webpage several times. Once, I even wrote a UNIX terminal-like [webpage](https://yugarinn.github.io/sergiouve.github.io/), which I think is pretty cool. Each time, I also took the opportunity to learn some new front-end technology, which ended up not being as "easy to start" or "blazing fast to deploy" as their pretty landing pages promised.
 
 In the end, the time and energy that should have been spent thinking about the actual website content, were spent reading documentation and spinning up half-baked prototypes.
 

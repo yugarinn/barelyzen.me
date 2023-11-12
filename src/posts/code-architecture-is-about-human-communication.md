@@ -1,4 +1,4 @@
-# Code Architecture deals mostly with human to human communication
+# Code Architecture is about human communication
 _2023-06-28_
 
 Lately, I have been reading and thinking about what Software Architecture is and why I have been finding it hard to find a consensus in the workplace when discussing what a "good" architecture looks like.
