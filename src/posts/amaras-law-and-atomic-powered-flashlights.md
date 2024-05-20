@@ -25,6 +25,8 @@ I asked `ChatGPT 4o` to find me passages where Asimov "describes mundane or smal
 
 After trying to find the excerpt in my copy of Foundation and finding myself unable to do so, I asked ChatGPT whether it made it up. It confessed that it did "inadvertently" create the passage.
 
+![a chatgpt screenshot admiting that it made up the excerpt](../assets/images/chatgpt_whoopsies.png "a chatgpt screenshot admiting that it made up the excerpt")
+
 I still decided to keep it in as an example if only in appreciation of the irony of it all.
 
 Let's not try to put atomic reactors in tiny flashlights.

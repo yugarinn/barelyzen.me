@@ -3,7 +3,7 @@ _2022-01-13_
 
 Last week I stumbled upon this tweet while on the bathroom:
 
-![alt text](../assets/images/just_html.jpeg "Logo Title Text 1")
+![a happy dude coming out of an imaginary shopping mall with boxes representing basic building blocks of the web like css and html](../assets/images/just_html.jpeg "a happy dude coming out of an imaginary shopping mall with boxes representing basic building blocks of the web like css and html")
 
 ## From "heh" to "huh"
 It made me chuckle for a second before I kept scrolling, but it stayed with me for the rest of the day.
