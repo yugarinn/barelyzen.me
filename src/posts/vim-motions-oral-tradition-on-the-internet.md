@@ -1,3 +1,4 @@
+_2024-07-31_
 # Vim motions: oral tradition on the internet
 Last weekend I listened to an interview between [The Primeagen](https://www.twitch.tv/theprimeagen) and [Thorsten Ball](https://thorstenball.com/): <https://www.youtube.com/watch?v=8XweSqTYdMQ>. At some point during the interview, they get into the details of how the Zed editor implements Vim motions.
 
