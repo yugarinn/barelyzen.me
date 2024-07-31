@@ -28,7 +28,8 @@
     text-decoration: none;
 }
 
-.secondary-text {
+.header__subtitle {
+    padding-left: 15px;
     color: #888888;
 }
 
@@ -42,4 +43,12 @@
 
 .section p {
     padding-left: 10px;
+}
+
+code {
+	padding: .2em .4em;
+	margin: 0;
+	font-size: 85%;
+	white-space: break-spaces;
+	background-color: #EFEFEF;
 }

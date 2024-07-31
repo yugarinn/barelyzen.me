@@ -9,8 +9,8 @@ Vim, _the editor_, introduced the concept of Vim, _the motions_, which is a set 
 ## The feeling
 There are a plethora of resources that teaches about motions, like the ones I mentioned above, `vimtutor` or even the Vim built-in command `:help motion.txt`, but I'd argue that those only teach the basic building blocks of Vim motions, the tip of the iceberg.
 
-I want to touch on the delightfully different way most of us actually learn to _grok_ Vim: by seeing others use it and copying their ways of combining motions.
+There is a delightfully different way most of us actually learn to _grok_ Vim: by seeing others use it and copying their ways of combining motions.
 
-There is a pretty special feeling that starts manifesting itself little by little as you start learning about the available operators and motions. A new world of possibilities starts opening before your eyes once you realize that you can start creating **phrases** by combining operators and motions.
+And that's a pretty special feeling, a feeling that manifests itself little by little as you start learning about the available operators and motions. A new world of possibilities starts opening before your eyes once you realize that you can start creating **phrases** by combining operators and motions.
 
-People usually bring up the concept of _composition_ when talking about Vim motions, and I think that there lies the key of the feeling that I am trying to describe. The combination of Vim motions are often described as phrases, and those are either invented by you or transmitted to you "orally" (or in a Youtube video, you know what I mean). **There is no specification anywhere about all the existing phrases**, those are "discovered" and passed down by Vim speakers to other Vim speakers, very much like oral tradition in a digital age.
+People usually bring up the concept of _composition_ when talking about Vim motions, and I think that there lies the key of the feeling that I am trying to describe. The combination of Vim motions are often described as **phrases**, and those are either invented by you or transmitted to you "orally" (or in a Youtube video, you know what I mean). **There is no specification anywhere about all the existing phrases**, those are "discovered" and passed down by Vim speakers to other Vim speakers, very much like oral tradition in a digital age.
