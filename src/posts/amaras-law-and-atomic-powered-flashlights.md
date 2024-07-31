@@ -1,5 +1,5 @@
-_2024-05-20_
 # Amara's Law and Atomic-powered Flashlights
+_2024-05-20_
 
 Consider this excerpt from Asimov's Foundation:
 
