@@ -1,5 +1,5 @@
 # Letting go in code reviews
-_2023-06-28_
+_2024-10-01_
 
 I am pretty new at leading a team.
 Up until now I had never had the chance to actually be the one paving the way.
